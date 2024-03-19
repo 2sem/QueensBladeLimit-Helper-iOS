@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/LYJ/Projects/leesam/qblhelper/src/queensbladelimithelper/QueensBladeLimitHelper.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

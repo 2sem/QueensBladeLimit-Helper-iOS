@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import queensbladelimithelper
+@testable import QueensBladeLimitHelper
 
 final class queensbladelimithelperTests: XCTestCase {
 
