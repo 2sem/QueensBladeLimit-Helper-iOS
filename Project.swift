@@ -15,7 +15,15 @@ let project = Project(
             ),
             sources: ["Sources/**"],
             resources: ["Resources/**"],
-            dependencies: []
+            dependencies: [],
+            settings: .settings(configurations: [
+                .debug(
+                    name: "Debug",
+                    xcconfig: "Configs/app.debug.xcconfig"),
+                .release(
+                    name: "Release",
+                    xcconfig: "Configs/app.release.xcconfig")
+            ])
         ),
         .target(
             name: "QueensBladeLimitHelperTests",

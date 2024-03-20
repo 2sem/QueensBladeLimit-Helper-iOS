@@ -2,8 +2,10 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-*.xcodeproj/
-*.workspace/
+# *.xcodeproj
+# *.workspace
+QueensBladeLimitHelper.xcodeproj/
+QueensBladeLimitHelper.workspace/
 
 Derived
 .DS_Store
